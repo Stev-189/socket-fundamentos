@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa de Colas</title>
+</head>
+
+<body>
+    <h1>Programa de Colas</h1>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/socket-custom.js">
+        //socket-custom inplementado en el index
+
+        /* // se usa var para generar una mayor compativilidad con los navegadores
+        var socket = io();
+
+        //escucha 
+        // los on son para escuchar
+        socket.on('connect', function() {
+            console.log('cliente conectado al servidor');
+        });
+        socket.on('disconnect', function() {
+            console.log('cliente perdimos la coneccion con servidor');
+        });
+
+        //los emit son para emitir informacion por parte del cliente al servidor
+        socket.emit('enviarMensaje', {
+            usuario: 'MaxiTurbo',
+            mensaje: 'Hola Mundo'
+                // }, function() {
+                //     console.log('Se dispara el callback'); // confirma la recepcion dle mensaje
+                // });
+        }, function(resp) {
+            console.log('Se dispara el callback'); // confirma la recepcion dle mensaje
+            console.log('respuesta server: ', resp); // ademas el servidor no envia una respuesta resp
+        });
+
+        //escucha el mensaje del servidor enviarMensaje
+        socket.on('enviarMensaje', (mensaje) => console.log('Desde el servidor:', mensaje)) */
+    </script>
+</body>
+
+</html>
